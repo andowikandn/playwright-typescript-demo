@@ -5,4 +5,5 @@ blob-report/
 playwright/.cache/
 playwright/.auth/
 allure-report/
+.github/workflows/playwright.yml/
 .env
