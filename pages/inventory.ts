@@ -125,7 +125,7 @@ export class InventoryPage {
     async tapContinueShopping() {
         await test.step('COntinue shopping button', async () => {
             await this.continueShopBtn.click();
-        })
+        });
     }
 
     async removeJacketinDetail() {
@@ -156,6 +156,6 @@ export class InventoryPage {
     async tapCheckoutButton() {
         await test.step('Tap checkout button', async () => {
             await this.checkoutButton.click();
-        })
+        });
     }
 }
