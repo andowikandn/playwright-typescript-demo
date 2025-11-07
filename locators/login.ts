@@ -6,4 +6,4 @@ export const LoginLocators = {
     errorMessage: '[data-test="error"]',
     closeErrorMsg: '[data-test="error-button"]',
     dashboardPage: '[data-test="title"]' // Products
-} as const;
+}
