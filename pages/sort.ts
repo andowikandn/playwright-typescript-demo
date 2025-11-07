@@ -28,7 +28,7 @@ export class SortPage {
             await this.sortBy.waitFor({ state: 'visible'});
             await this.sortBy.selectOption('az');
             await expect(this.sortBy).toHaveValue('az');
-        })
+        });
     }
 
     async tapSortPriceHilo() {
