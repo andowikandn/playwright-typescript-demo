@@ -82,7 +82,7 @@ export class OverviewPage {
             await this.overviewPage.waitFor({state: 'visible'});
             await expect(this.page.locator(OverviewLocators.shippingInfo)).toHaveText('Shipping Information:');
             await expect(this.page.locator(OverviewLocators.totalInfo)).toHaveText('Price Total');
-        })
+        });
     }
 
     async tapCancelBtnOverview() {
